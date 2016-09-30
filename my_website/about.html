@@ -3,25 +3,29 @@
     <head>
         <meta charset="utf=8">
         <title>About Me</title>
-        <link rel="stylesheet" href="aboutme.css" type="text/css" />
+        <link rel="stylesheet" href="home.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     </head>
     <body>
             <div class="banner">
                 <center>
-                    <h1>Winston Nguyen</h1>
+                    <h1 id="bannername">Winston Nguyen</h1>
                 </center>
             </div>
         <div class="intro">
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a class="active" href="about.html">About Me</a>
+            </nav>
             <center id="logo">
                 <img class="avatar" src="images/winston.gif">
             </center>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="about.html">About Me</a>
-            </nav>
-        <h3>Grade: 12</h3>
+            <center>
+                <h1>Grade: 12</h1>
+            </center>
         <center>
         <table>
             <tr><th>Period</th><th>Class</th></tr>
@@ -39,12 +43,12 @@
                 My goal is to be the first person in my family to go to college. I'm looking forward to <br>
                 exploring my opportunities in the future. I plan on majoring in Computer Science, and I <br>
                 like to be on my computer for fun. Ultimately, I want to be a role model for my younger <br>
-                sister because I would be the first to go to college.
+                sister because I would be the first to go to college. 
             </p>
             </center>
             <center>
             <div class="hobbies">
-                <h2>Hobbies</h2>
+                <h1>Hobbies</h1>
                 <center>
                 <ul style="list-style-type:circle">
                     <li>Video Games</li>
@@ -56,7 +60,7 @@
             </center>
             <center>
             <div class="songs">
-                <h2>Favorite Songs</h2>
+                <h1>Favorite Songs</h1>
                 <ol>
                     <li>"Sunday Candy" by Donnie Trumpet & The Social Experiment</li>
                     <li>"Like That (feat. Skate)" by Jack & Jack</li>
@@ -66,12 +70,28 @@
             </div>
             </center>
             <center>
-            <p class="quote">
-                <h2>Quote</h2>
-                "Success is a journy, not a destination." - Arthur Ashe
+            <h1>Quote</h1>
+            <p id="quote">
+                "Success is a journey, not a destination." - Arthur Ashe
             </p>
             </center>
-            <img class="squirrel" src="images/brownsquirrel.jpg">
+            <center>
+                <figure>
+                    <img class="squirrel" src="images/brownsquirrel.jpg" alt="Intimidating Brown Squirrel">
+                    <figcaption id="squiCaption">I like squirrels.</figcaption>
+                </figure>
+            </center>
+             <footer>
+                <div class ="footerArea">
+                    <div class="links">
+                         <a href="index.html">Home</a>
+                         <a href="portfolio.html">Portfolio</a>
+                         <a class="active" href="about.html">About Me</a>
+                    </div>
+                    <div class="copyrightText">
+                        Website Created By Winston Nguyen 2016
+                    </div>
+                  </footer>
         </div>
     </body>
 </html>
