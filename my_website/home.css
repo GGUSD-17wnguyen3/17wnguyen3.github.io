@@ -3,9 +3,8 @@ head{
     padding: 10px;
 }
 .banner{
+
     color:#ffffff;
-    font-family: "Pacifico";
-    font-size: 180%;
     background-image: url("images/abstractbanner.png");
     margin-left: auto;
     margin-right: auto;
@@ -17,6 +16,7 @@ head{
 }
 #bannername{
     font-family: "Pacifico";
+    font-size: 350%;
 }
 #logo{
     background-color: #ffffff;
@@ -35,7 +35,7 @@ img.avatar{
     border-width: 10px;
     border-color: #bbbbbb;
 }
-img.squirrel{
+.squirrel{
     width:70%;
     height: 70%;
     border-radius: 20%;
@@ -125,6 +125,8 @@ table, tr, th, td{
 #scratch{
     background-color: transparent;
 }
-#credits{
+#bannercite{
+    text-align: left;
+    font-size: 25%;
     
 }
