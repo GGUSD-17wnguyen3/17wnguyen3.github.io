@@ -55,7 +55,7 @@ body{
 }
 nav,a{
     text-align: center;
-    background-color: #0df232;
+    background-color: rgba(13,242,50,1);
     text-decoration: none;
     font-family:"Pacifico";
     font-size: 125%;
@@ -93,7 +93,7 @@ footer a{
     color:#ffffff;
 }
 .footerArea{
-    background-color: #0df232;
+    background-color: rgba(13,242,50,1);
     padding-top: .5%;
     text-align: center;
 }
@@ -124,4 +124,7 @@ table, tr, th, td{
 }
 #scratch{
     background-color: transparent;
+}
+#credits{
+    
 }
